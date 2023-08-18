@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - featureA
     paths:
       - image/Dockerfile-base
       - .github/workflows/base-image.yaml
